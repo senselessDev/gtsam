@@ -11,3 +11,5 @@
  * and saves one copy operation.
  */
 
+
+//py::bind_map<gtsam::VariableIndex>(m_, "VariableIndex");

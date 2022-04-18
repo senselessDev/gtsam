@@ -190,6 +190,8 @@ class VariableIndex {
              const gtsam::KeyFormatter& keyFormatter =
                  gtsam::DefaultKeyFormatter) const;
 
+  const Factors & operator[] (Key variable) const;
+
   // Standard interface
   size_t size() const;
   size_t nFactors() const;
